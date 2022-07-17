@@ -1,0 +1,39 @@
+.title {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+
+.icon-small {
+  width: 40px;
+}
+
+
+.detailspanel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.detailspanel > div {
+  flex: 50%;
+  margin: 10px;
+}
+
+.daily-details-grid-item {
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.daily-details-grid-item label:first-child {
+  color: #757575;
+  font-weight: 700;
+}
+
+.daily-details-grid-item label:last-child {
+  color: black;
+  font-weight: 700;
+}
